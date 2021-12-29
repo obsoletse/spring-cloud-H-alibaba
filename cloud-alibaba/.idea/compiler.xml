@@ -7,19 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="0.cloud-api-common" />
         <module name="2.cloud-consumer-order-80" />
+        <module name="4.cloud-dashboard-hystrix-9001" />
+        <module name="1.cloud-provider-payment-8004" />
+        <module name="4.cloud-provider-payment-hystrix-8001" />
+        <module name="4.cloud-consumer-order-hystrix-80" />
+        <module name="2.cloud-consumer-order-80-feign" />
+        <module name="6.cloud-configServer-3344" />
+        <module name="5.cloud-gateway-9527" />
+        <module name="3.cloud-server-eurekaServer-7002" />
         <module name="3.cloud-server-eurekaServer-7001" />
         <module name="1.cloud-provider-payment-8002" />
         <module name="1.cloud-provider-payment-8001" />
-        <module name="4.cloud-consumer-order-hystrix-80" />
         <module name="1.cloud-provider-payment-8003" />
-        <module name="3.cloud-server-eurekaServer-7002" />
-        <module name="0.cloud-api-common" />
-        <module name="5.cloud-gateway-9527" />
-        <module name="1.cloud-provider-payment-8004" />
-        <module name="2.cloud-consumer-order-80-feign" />
-        <module name="4.cloud-dashboard-hystrix-9001" />
-        <module name="4.cloud-provider-payment-hystrix-8001" />
       </profile>
     </annotationProcessing>
   </component>

@@ -54,15 +54,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.linbin.springcloud.controller" />
       <recent name="com.linbin.springcloud" />
+      <recent name="com.linbin.springcloud.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\study\spring-cloud-alibaba\cloud-alibaba\4.cloud-consumer-order-hystrix-80\src\main\resources" />
@@ -89,7 +89,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="6.cloud-configServer-3344" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linbin.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.linbin.springcloud.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServer7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="3.cloud-server-eurekaServer-7001" />
       <extension name="coverage">
@@ -103,6 +116,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaServer7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="3.cloud-server-eurekaServer-7002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linbin.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.linbin.springcloud.EurekaServer7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="5.cloud-gateway-9527" />
       <extension name="coverage">
@@ -112,19 +138,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.linbin.springcloud.GatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaymentApplication_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="1.cloud-provider-payment-8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.linbin.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.linbin.springcloud.PaymentApplication_8001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,16 +157,18 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaServer7001" />
-      <item itemvalue="Spring Boot.PaymentApplication_8001" />
       <item itemvalue="Spring Boot.PaymentApplication_8002" />
       <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.EurekaServer7002" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
+        <item itemvalue="Spring Boot.EurekaServer7002" />
+        <item itemvalue="Spring Boot.EurekaServer7001" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.PaymentApplication_8002" />
-        <item itemvalue="Spring Boot.PaymentApplication_8001" />
-        <item itemvalue="Spring Boot.EurekaServer7001" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +180,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4b9c50b1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6950ed1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -202,7 +217,7 @@
       <workItem from="1640133648321" duration="7332000" />
       <workItem from="1640309575379" duration="8977000" />
       <workItem from="1640567969367" duration="1045000" />
-      <workItem from="1640738574509" duration="1389000" />
+      <workItem from="1640738574509" duration="5198000" />
     </task>
     <servers />
   </component>

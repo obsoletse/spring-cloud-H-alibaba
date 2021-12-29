@@ -1,0 +1,31 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: cloud-config-server
+
+  #配置中心配置：
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://10.16.24.26/obsolete/cloud-server-config.git # 此处使用https格式(连不上可以使用ssl尝试)--git仓库地址
+          timeout: 4 # 超时时间 默认 5s
+          search-paths:
+            - cloud-server-config/ #搜索的目录
+          default-label: master # 读取的分支
+#          skipSslValidation: true # 跳过ssl证书验证
+#          username: linbin
+#          password: baby1314520..
+
+eureka:
+  instance:
+    instance-id: configServer3344
+    prefer-ip-address: true
+
+  client:
+    register-with-eureka: true #注册服务
+    fetch-registry: true #需检索服务
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka #注册到注册中心
