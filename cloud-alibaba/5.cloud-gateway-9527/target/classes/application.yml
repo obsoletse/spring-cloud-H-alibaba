@@ -1,0 +1,53 @@
+server:
+  port: 9527
+
+spring:
+  # 路由配置
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: false #开启服务列表发现并拥有默认路由功能 false-关闭默认路由
+          lower-case-service-id: true  #微服务名称以小写形式呈现
+      routes:
+        - id: paymentService    #路由唯一ID，建议使用微服务名
+          uri: lb://CLOUD-PAYMENT-SERVICE #匹配后转发的微服务地址(uri的协议为lb，表示启用Gateway的负载均衡功能。)
+          predicates: #断言。路径相匹配进行路由.标识匹配payment路由请求 当访问地址http://localhost:9527/payment/** 时，会路由到上游地址lb://CLOUD-PAYMENT-SERVICE/payment/**。
+#            - After=2021-12-24T10:14:04.243+08:00[Asia/Shanghai] # 在指定时间之后后匹配路由
+#            - Before=2021-12-24T11:14:04.243+08:00[Asia/Shanghai] # 在指定时间之前后匹配路由
+#            - Between=2021-12-24T10:14:04.243+08:00[Asia/Shanghai],2021-12-24T10:14:05.243+08:00[Asia/Shanghai] # 在指定时间之间后匹配路由
+#            - Cookie=username,linbin #存在cookie名为username，cookie内容匹配linbin的匹配路由
+#            - Header=X-Request-Id, \d+ #存在名为X-Request-Id，内容为数字的header的请求匹配路由
+#            - Host=**.somehost.org,**.anotherhost.org # Host诸如：www.somehost.org 或 beta.somehost.org或www.anotherhost.org等请求匹配路由
+#            - Method=GET #存在get方法的匹配路由
+            - Path=/payment/**
+#            - Query=username, \d+  # 要有参数名username并且值还要是整数才匹配路由
+#            - RemoteAddr=192.168.43.89 #远程主机id为192.168.1.1~192.168.1.24的才匹配路由
+#          filters:
+#            - AddRequestHeader=X-Request-Foo, Bar #对匹配的请求，会额外添加X-Request-Foo:Bar的header。
+#            - AddRequestParameter=foo, bar #对匹配的请求，会额外添加foo=bar的请求参数。
+#            - AddResponseHeader=X-Response-Foo, Bar #对匹配的请求，响应返回时会额外添加X-Response-Foo:Bar的header返回。
+#            - name: Hystrix #当Hystrix降级后就会将请求转发到/incaseoffailureusethis。
+#              args:
+#                name: fallbackcmd
+#                fallbackUri: forward:/incaseoffailureusethis #配置全局超时信息 hystrix.command.fallbackcmd.execution.isolation.thread.timeoutInMilliseconds: 5000
+#            - PrefixPath=/mypath #通过设置prefix参数来路径前缀。如果一个请求是/hello，通过上面路由，就会将请求修改为/mypath/hello
+#            - RemoveRequestHeader=X-Request-Foo #上面路由在发送请求给下游时，会将请求中的X-Request-Foo头信息去掉
+#            - RemoveResponseHeader=X-Response-Foo #上面路由会在响应返回给gateway的客户端时，将X-Response-Foo响应头信息去掉
+#            - RewritePath=/foo/(?<segment>.*), /$\{segment} #重定向 如果请求的路径是/foo/bar，则gateway会将请求路径改为/bar发送给下游
+
+
+
+  application:
+    name: cloud-gateway-service
+
+eureka:
+  instance:
+    instance-id: gateway9527
+    prefer-ip-address: true
+
+  client:
+    register-with-eureka: true #注册服务
+    fetch-registry: true #需检索服务
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka #注册到注册中心

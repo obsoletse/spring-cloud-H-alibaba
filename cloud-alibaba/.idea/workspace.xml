@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02aaf819-b93e-4a86-a283-8cb8e80fd059" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/tools/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\tools\maven\apache-maven-3.6.1\conf\settings-3.6.1.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="20cOCZGuEn0l2LtG2W2tds3aDNM" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/4.cloud-consumer-order-hystrix-80/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.linbin.springcloud.controller" />
+      <recent name="com.linbin.springcloud" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\study\spring-cloud-alibaba\cloud-alibaba\4.cloud-consumer-order-hystrix-80\src\main\resources" />
+      <recent name="E:\study\spring-cloud-alibaba\cloud-alibaba\4.cloud-provider-payment-hystrix-8001\src\main\java\com\linbin\springcloud" />
+      <recent name="E:\study\spring-cloud-alibaba\cloud-alibaba\4.cloud-provider-payment-hystrix-8001\src\main\resources" />
+      <recent name="E:\study\spring-cloud-alibaba\cloud-alibaba\2.cloud-consumer-order-80-feign\src\main\resources" />
+      <recent name="E:\study\spring-cloud-alibaba\cloud-alibaba\1.cloud-provider-payment-8003\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration name="EurekaServer7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="3.cloud-server-eurekaServer-7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linbin.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.linbin.springcloud.EurekaServer7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="5.cloud-gateway-9527" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linbin.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.linbin.springcloud.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentApplication_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="1.cloud-provider-payment-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linbin.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.linbin.springcloud.PaymentApplication_8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentApplication_8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="1.cloud-provider-payment-8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linbin.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.linbin.springcloud.PaymentApplication_8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServer7001" />
+      <item itemvalue="Spring Boot.PaymentApplication_8001" />
+      <item itemvalue="Spring Boot.PaymentApplication_8002" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.PaymentApplication_8002" />
+        <item itemvalue="Spring Boot.PaymentApplication_8001" />
+        <item itemvalue="Spring Boot.EurekaServer7001" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.1824722" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4b9c50b1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02aaf819-b93e-4a86-a283-8cb8e80fd059" name="Default Changelist" comment="" />
+      <created>1636340282556</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636340282556</updated>
+      <workItem from="1636340286033" duration="83000" />
+      <workItem from="1636340386392" duration="3509000" />
+      <workItem from="1636418708636" duration="5377000" />
+      <workItem from="1636425010605" duration="5081000" />
+      <workItem from="1636506431308" duration="5456000" />
+      <workItem from="1636592075942" duration="6969000" />
+      <workItem from="1637544708999" duration="6035000" />
+      <workItem from="1637803002969" duration="6113000" />
+      <workItem from="1637894061230" duration="2703000" />
+      <workItem from="1638346936206" duration="10339000" />
+      <workItem from="1638500210605" duration="239000" />
+      <workItem from="1638857330788" duration="5286000" />
+      <workItem from="1639643054382" duration="4606000" />
+      <workItem from="1639706561872" duration="96000" />
+      <workItem from="1639961328426" duration="714000" />
+      <workItem from="1640048521309" duration="4480000" />
+      <workItem from="1640133648321" duration="7332000" />
+      <workItem from="1640309575379" duration="8977000" />
+      <workItem from="1640567969367" duration="1045000" />
+      <workItem from="1640738574509" duration="1389000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
