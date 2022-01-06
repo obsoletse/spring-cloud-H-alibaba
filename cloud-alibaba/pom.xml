@@ -24,6 +24,7 @@
         <module>4.cloud-dashboard-hystrix-9001</module>
         <module>5.cloud-gateway-9527</module>
         <module>6.cloud-configServer-3344</module>
+        <module>6.cloud-configClient-3355</module>
     </modules>
 
     <!--打包方式：pom-->

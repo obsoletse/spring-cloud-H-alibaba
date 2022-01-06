@@ -1,0 +1,14 @@
+server:
+  port: 3355
+
+spring:
+  application:
+    name: config-client
+
+  # 通过配置中心访问到仓库的配置文件
+  cloud:
+    config:
+      label: master #读取的分支     相当于/master/config-dev.yml中的master
+      name: config  #配置文件名称   相当于/master/config-dev.yml中的config
+      profile: dev  #配置文件后缀   相当于/master/config-dev.yml中的dev
+      uri: http://localhost:3344 #配置中心地址

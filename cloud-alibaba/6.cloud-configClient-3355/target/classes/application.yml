@@ -1,0 +1,17 @@
+eureka:
+  instance:
+    instance-id: configClient3355
+    prefer-ip-address: true
+
+  client:
+    register-with-eureka: true #注册服务
+    fetch-registry: true #需检索服务
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka #注册到注册中心
+
+# 暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
